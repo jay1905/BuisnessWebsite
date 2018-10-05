@@ -55,12 +55,32 @@ label {
   color: #f00;
 }
 
+.register {
+  color: #fff;
+  font-size: 2rem;
+}
+
 .btn-danger {
   margin-top: 1rem;
 }
 
 #emailHelp {
   color: #fff;
+}
+
+.logo__box{
+  /* position: relative;
+  background: none;
+  border: 1px solid white; */
+  text-align: center;
+  
+}
+
+.logo{
+  position: relative;
+  top: .5rem;
+  width: 15%;
+  
 }
 
 
