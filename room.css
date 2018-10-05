@@ -2,8 +2,12 @@
   position: fixed;
 
    width: 100%;
+   z-index: 2;
+
+   background-color: #EEB412;
 
 }
 .jtitleMargin {
   margin-top:56px;
+  background-color: #EEB412;
 }
