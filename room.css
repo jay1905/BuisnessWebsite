@@ -11,3 +11,45 @@
   margin-top:56px;
   background-color: #EEB412;
 }
+.backgroundPictures{
+
+  height:960px;
+
+  background-image: url("Room/roomView.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.col1{
+  background-image: url("Room/roomSmall.jpg");
+  box-shadow: 0px 0px 8px rgba(0,0,0,1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid black;
+  height: 250px;
+
+  margin-top: 70px;
+}
+.col2{
+    background-image: url("Room/roomSmall2.jpg");
+    box-shadow: 0px 0px 8px rgba(0,0,0,1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid black;
+    height: 200px;
+    margin-top: 50px;
+}
+.col3{
+    background-image: url("Room/roomBig3.jpg");
+    box-shadow: 0px 0px 8px rgba(0,0,0,1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid black;
+    height: 200px;
+    margin-top: 80px;
+
+}
+.button1{
+position: absolute;
+width: 100%;
+bottom: -30px;
