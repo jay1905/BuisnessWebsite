@@ -7,7 +7,118 @@
    background-color: #EEB412;
 
 }
+.availabilityContainer{
+padding: 100px;
+width: 100%;
+position: fixed;
+z-index: 100;
+display: none;
+
+}
+.checkForm{
+
+  width: 200px;
+  left: auto;
+  margin: auto;
+
+
+}
+.checkIn{
+
+  color: white;
+}
+.checkAvailability{
+  background-color: #000000;
+
+  position: relative;
+  text-align: center;
+  height: 200px;
+  width:400px;
+  margin: 0 auto;
+
+
+}
+.clockIcon{
+height: 50px;
+float: left;
+padding-right: 20px;
+
+}
+.checkInTime{
+  text-align: center;
+  padding-right: 20px;
+  display: inline;
+  float: left;
+}
+.discriptionPic{
+height: 300px;
+float: right;
+
+}
+.roomDiscription{
+padding-bottom: 50px;
+  width: 500px;
+}
+.whiteSpace{
+padding:70px;
+
+  height: 500px;
+}
 .jtitleMargin {
   margin-top:56px;
   background-color: #EEB412;
+}
+.backgroundPictures{
+
+  height:960px;
+
+  background-image: url("Room/roomView.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.col1{
+  background-image: url("Room/roomSmall.jpg");
+  box-shadow: 0px 0px 8px rgba(0,0,0,1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid black;
+  height: 250px;
+  text-align: center;
+  margin-top: 70px;
+
+}
+.col2{
+    background-image: url("Room/roomSmall2.jpg");
+    box-shadow: 0px 0px 8px rgba(0,0,0,1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid black;
+    height: 200px;
+    margin-top: 50px;
+      text-align: center;
+}
+.col3{
+    background-image: url("Room/roomBig3.jpg");
+    box-shadow: 0px 0px 8px rgba(0,0,0,1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid black;
+    height: 200px;
+    margin-top: 80px;
+    text-align: center;
+
+}
+.button2{
+  position: relative;
+float: left;
+clear: left;
+top: 30px;
+left: 30px;
+}
+.button1{
+position: relative;
+
+display: none;
+
 }
