@@ -1,0 +1,25 @@
+.collapseWrap{
+
+  background-color: #EEB412;
+  padding: 100px;
+  text-align: center;
+  height: 100vh;
+}
+.jaimePic{
+
+height: 400px;
+float: left;
+border: 5px solid transparent;
+
+}
+.jonPic{
+height: 400px;
+float: right;
+border: 5px solid transparent;
+}
+
+.picHover{
+
+  border: 5px solid #006BEB;
+
+}
