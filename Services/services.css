@@ -1,0 +1,111 @@
+/* Created bY Jonathan D Kaonga  */
+
+/*** SERVICES STYLES ***/
+
+/*** RESET ***/
+body {
+
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+
+  font-family: 'K2D', sans-serif; 
+}
+
+.header {
+  height: 100vh;
+  background-color: #000;
+}
+
+.layer {
+  height: 60vh;
+  background-color: #f00;
+}
+
+.header__title {
+  margin-top: 2rem;
+  font-size: 8rem;
+  color: #fff;
+}
+
+.header__intro {
+  margin-top: 4rem;
+  color: #fff;
+}
+
+.logo__box{
+  padding: 1rem;
+  border: 3px solid #fff;
+  width: 70%;
+  float: left;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 1rem;
+}
+
+.service__icon {
+  margin-left: 1rem;
+}
+
+.logo{
+  
+}
+
+.free {
+  margin-top: 4rem;
+  color: #fff;
+}
+
+/*** FOOTER STYLES ***/
+
+.footer {
+  font-family: 'K2D', sans-serif;
+
+  background-color: #000;
+  color: #fff;
+}
+
+.footer__overlay {
+}
+
+.footer-info, .footer-links, .footer-contact, .footer-news {
+  margin-top: 2rem;
+}
+
+/* Navigation Styling */
+.footer__nav{
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+}
+
+i {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.footer__link {
+    color: #fff;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+.footer__link:hover {
+    color: #f00;
+    text-decoration: none;
+}
+
+/* Footer text Styles */
+
+.footer__title {
+  color: #f00;
+}
+
+.footer__text {
+  font-size: .8rem;
+}
+
+.footer__copy {
+  margin: 1rem 0 1rem 1rem;
+}

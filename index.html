@@ -4,14 +4,12 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Page Title</title>
+  <title>BSSA Bed & Breakfast</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-  <link rel="stylesheet" type="text/css" href="room.css">
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
     crossorigin="anonymous">
-
 
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
@@ -19,13 +17,6 @@
 
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
-    <script
-    src="https://code.jquery.com/jquery-3.3.1.js"
-    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-    crossorigin="anonymous"></script>
-    
-    <script type="text/javascript" src='Room/room.js'></script>
-
 
   <!-- Google Font-->
   <link href="https://fonts.googleapis.com/css?family=K2D" rel="stylesheet">
@@ -33,42 +24,8 @@
 </head>
 
 <body>
-  <div class=" sticky-top">
-    <nav class=" navbar navbar-expand-lg navbar-light bg-light ">
-    <div class="container ">
-      <a class="navbar-brand" >Boats N Hoes</a>
-    </div>
-    </nav>
-  </div>
-    <div class=" jbar ">
-    <div  id="jnav"class="">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary " >
-      <a class="navbar-brand" href="#">Boats N Hoes</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-        </ul>
-        <span class="navbar-text">
-          Navbar text with an inline element
-        </span>
-      </div>
-    </nav>
-  </div>
-  </div>
-  <div class="jtitleMargin">
+  
 
-  </div>
   <!-- HOME HEADER -->
   <header class="header" id="header">
     <div class="header__overlay">
@@ -152,7 +109,7 @@
         <div class="row">
           <div class="col-md-6">
             <div class="main__about">
-              <a href="Room/room.html" class="main__about-link">
+              <a href="Services/services.html" class="main__about-link">
                 Services<span class="period">.</span>
               </a>
               <p class="main__about-detail">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, praesentium
@@ -251,11 +208,6 @@
       $("#header__booking").animate({
         opacity: 1
       }, 3000);
-
-      ('#img1').on('click', function () {
-        $(this).width(1000);
-      });
-
     });
   </script>
 </body>
